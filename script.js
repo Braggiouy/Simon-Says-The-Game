@@ -70,4 +70,10 @@ function SimonGame() {
 const game = new SimonGame();
 game.init();
 
-console.log(game.sequence);
+// console.log(game.sequence);
+// Would be great to add some more features like :
+
+// Sounds
+// Start botton, so it doesnt start as soon as we site loads
+// Some nice title + background
+// Some more extras
