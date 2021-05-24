@@ -1,0 +1,75 @@
+button {
+  height: 300px;
+  width: 300px;
+  margin: 0 -2px;
+  border: 10px solid black;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+}
+
+#green { 
+  border-top-left-radius: 100%;
+  background: rgba(35, 200, 82, 0.4); /*last value is for transparency */
+}
+
+#red {
+  border-top-right-radius: 100%;
+  background: rgba(254, 35, 34, 0.4);
+}
+
+#yellow {
+  border-bottom-left-radius: 100%;
+  background: rgba(243, 194, 16, 0.4);
+}
+
+#blue {
+  border-bottom-right-radius: 100%;
+  background: rgba(0, 103, 208, 0.4);
+}
+
+#green.active,
+#green:hover { 
+  background: rgba(35, 200, 82, 1);
+}
+
+#red.active,
+#red:hover {
+  background: rgba(254, 35, 34, 1);
+}
+
+#yellow.active,
+#yellow:hover {
+  background: rgba(243, 194, 16, 1);
+}
+
+#blue.active, 
+#blue:hover { 
+  background: rgba(0, 103, 282, 1);
+}
+
+section {
+  width: 620px;
+  margin: auto;
+  position: relative;
+}
+
+#counter {
+  border-radius: 50%;
+  box-sizing: border-box;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -100px; 
+  margin-left: -108px; 
+  
+  background: #000;
+  color: #fff;
+  
+  font-family: Arial;
+  font-size: 100px;
+  line-height: 200px;
+  text-align: center;
+}
